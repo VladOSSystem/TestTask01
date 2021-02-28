@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VladOSSystem/TestTask01/static/css/main.e1681c3b.chunk.css",
+    "main.js": "/VladOSSystem/TestTask01/static/js/main.a32782cf.chunk.js",
+    "main.js.map": "/VladOSSystem/TestTask01/static/js/main.a32782cf.chunk.js.map",
+    "runtime-main.js": "/VladOSSystem/TestTask01/static/js/runtime-main.5537080c.js",
+    "runtime-main.js.map": "/VladOSSystem/TestTask01/static/js/runtime-main.5537080c.js.map",
+    "static/js/2.cfccab3a.chunk.js": "/VladOSSystem/TestTask01/static/js/2.cfccab3a.chunk.js",
+    "static/js/2.cfccab3a.chunk.js.map": "/VladOSSystem/TestTask01/static/js/2.cfccab3a.chunk.js.map",
+    "static/js/3.57e786a5.chunk.js": "/VladOSSystem/TestTask01/static/js/3.57e786a5.chunk.js",
+    "static/js/3.57e786a5.chunk.js.map": "/VladOSSystem/TestTask01/static/js/3.57e786a5.chunk.js.map",
+    "index.html": "/VladOSSystem/TestTask01/index.html",
+    "static/css/main.e1681c3b.chunk.css.map": "/VladOSSystem/TestTask01/static/css/main.e1681c3b.chunk.css.map",
+    "static/js/2.cfccab3a.chunk.js.LICENSE.txt": "/VladOSSystem/TestTask01/static/js/2.cfccab3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5537080c.js",
+    "static/js/2.cfccab3a.chunk.js",
+    "static/css/main.e1681c3b.chunk.css",
+    "static/js/main.a32782cf.chunk.js"
+  ]
+}

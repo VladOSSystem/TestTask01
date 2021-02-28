@@ -1,25 +1,45 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import './assets/css/main.css';
 
-function App() {
+import { connect } from 'react-redux';
+
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import DropdownHeader from './components/DropdownHeader';
+import Index from './components/main/index';
+import './assets/css/main.css';
+
+const App = ({layout}) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className="main-layout">
+     {layout.layoutStyle === 'left' ? (
+       <>
+         <Sidebar/>
+        <div className="header-merge">
+          <Header/>
+          <DropdownHeader/>
+          <Index/>
+        </div>
+       </>
+     ) : (
+      <>
+          <div className="header-merge">
+            <Header/>
+            <DropdownHeader/>
+            <Index/>
+          </div>
+           <Sidebar/>
+      </>
+     )}
+   
+   </div>
   );
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    layout: state.Layout
+  }
+}
+export default connect(mapStateToProps, null)(App);

@@ -1,4 +1,4 @@
-import { all, call, fork, takeEvery, put } from 'redux-saga/effects';
+import { all,  fork, takeEvery, put } from 'redux-saga/effects';
 import { 
     LEFT_MENU_BAR_TOGGLE, 
     CHANGE_LAYOUT,
